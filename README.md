@@ -52,3 +52,13 @@ Arduino library to control futuba RS405CB with MAX485
      int currentAngle = myMotor.getAngle();//TBD
 
 
+### TBD Functions
+
+- **Set Maximum Torque:** Set the maximum torque using a function (TBD).
+- **Get Present Time:** Get the present time (TBD).
+- **Get Present Speed:** Get the present speed (TBD).
+- **Get Present Current:** Get the present current (TBD).
+- **Get Present Temperature:** Get the present temperature (TBD).
+- **Get Present Voltage:** Get the present voltage (TBD).
+
+
