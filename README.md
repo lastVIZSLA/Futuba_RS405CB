@@ -14,7 +14,7 @@ Arduino library to control futuba RS405CB with MAX485
      - **Initialization:** (optional) Call the `init()` function after creating the motor object to initialize the motor:
      ```cpp
      myMotor.init();
-     sets the torque High
+     //sets the torque High
      ```
    - **Flash ROM:** Use `flashRom()` to flash the ROM of a specified motor ID:
      ```cpp
@@ -27,12 +27,12 @@ Arduino library to control futuba RS405CB with MAX485
    - **Change Motor ID:** Change the motor ID to a new ID using `changeID()`:
      ```cpp
      myMotor.changeID(newMotorID);
-     change is permanent saves the value in flash rom and reboots the motor
+     //change is permanent saves the value in flash rom and reboots the motor
      ```
    - **Change Baud Rate:** Change the baud rate to a new value using `changeBrate()`:
      ```cpp
      myMotor.changeBrate(newBaudRate);
-     change is permanent saves the value in flash rom and reboots the motor
+     //change is permanent saves the value in flash rom and reboots the motor
      ```
    - **Move Motor:** Use `move()` to move the motor to a specified position over a certain time:
      ```cpp
@@ -45,6 +45,6 @@ Arduino library to control futuba RS405CB with MAX485
    - **Get Current Angle:** Retrieve the current angle of the motor using `getAngle()`:
      ```cpp
      int currentAngle = myMotor.getAngle();
-     TBD
+     //TBD
 
 
