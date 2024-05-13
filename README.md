@@ -11,6 +11,11 @@ Arduino library to control futuba RS405CB with MAX485
 
 - ## How to Use
 
+  
+     - **Initialize RS405CB Motor:** To initiate a motor with the default settings, use the constructor `RS405CB` with parameters for baud rate, `txdenPin`, and motor ID. Example:
+     ```cpp
+     RS405CB myMotor(9600, txdenPin, motorID1);
+     ```
      - **Initialization:** (optional) Call the `init()` function after creating the motor object to initialize the motor:
      ```cpp
      myMotor.init();
