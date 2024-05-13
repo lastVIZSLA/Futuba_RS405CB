@@ -54,6 +54,8 @@ Arduino library to control futuba RS405CB with MAX485
 
 ### TBD Functions
 
+- **Set Maximum Goal Position:** Set the maximum goal position using a function (TBD).
+- **Set Minimum Goal Position:** Set the minimum goal position using a function (TBD).
 - **Set Maximum Torque:** Set the maximum torque using a function (TBD).
 - **Get Present Time:** Get the present time (TBD).
 - **Get Present Speed:** Get the present speed (TBD).
