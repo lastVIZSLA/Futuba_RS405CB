@@ -2,6 +2,10 @@
 Arduino library to control futuba RS405CB with MAX485
 
 ![circuit](https://github.com/lastVIZSLA/Futuba_RS405CB/blob/main/circuit.png)
+**Purpose:**
+
+- Cheaper method to control Futuba Motors in Serial bus using Max 485 instead of RSCU-485( A Futuba Servo Controller Which costs 100 times more)
+
 
 **Note:**
 
