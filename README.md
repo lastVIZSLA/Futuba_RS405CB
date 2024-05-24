@@ -57,6 +57,8 @@ Arduino library to control futuba RS405CB with MAX485
      ```cpp
      int currentAngle = myMotor.getAngle();//TBD
 
+- This video is produced using the above circuit diagram.
+  
 ![Alt text](test.gif)
 
 
